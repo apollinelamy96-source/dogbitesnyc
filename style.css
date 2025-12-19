@@ -20,12 +20,12 @@ You will find this is far easier than the opposite task of using CSS to cram you
 }
 
 
-/* this class is so the margins aren't so tight in moble*/
+/* this class is so the margins aren't so tight in mobile*/
 .full{
     margin: auto;
     max-width: 880px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 }
 
