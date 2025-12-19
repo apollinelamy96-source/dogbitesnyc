@@ -1,0 +1,130 @@
+
+/*
+This is a good layout for a mobile-first CSS template.
+Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
+Most of your styles get written like standard CSS, but for your mobile presentation. Generally speaking, a good mobile presention will stretch out nicely for larger screens.
+
+Sometimes, when we stretch out to larger screens, we need to make minor tweaks for the larger devices -- you can make these tweaks in the tablet media query, or if the issue exists on desktop only, the desktop media query.
+You will find this is far easier than the opposite task of using CSS to cram your desktop experience into a mobile device.
+*/
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/**********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* this class is so the margins aren't so tight in moble*/
+.full{
+    margin: auto;
+    max-width: 880px;
+}
+
+
+/*this is the code for the headline*/
+h1 {
+    border-style: solid;
+    border-width: 4px;
+    padding: 6px;
+    border-color: #1f2937;
+    margin-bottom: 2px;
+      border-top: 4px solid;
+  padding-top: 1rem;
+}
+
+/* this code is to make the spacing look better for my byline*/
+.byline h6 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+}
+
+
+
+/*this is the code for my image*/
+figure {
+    max-width: 800px;
+    width: 80%;
+    font-size: 16px;
+   margin: auto;
+   margin-bottom: 10px;
+ }
+
+figcaption {
+
+  font-size: 10px;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Optionally, set a width for the image */
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.25rem;      /* smaller than h1 */
+  font-weight: 400;       /* lighter than headline */
+  margin-top: 4px;        /* close to h1 */
+  margin-bottom: 20px;    /* space before byline/photo */
+  line-height: 1.4;
+  color: #333;
+}
+
+/*this is the code for my background color */
+
+body {
+    background-color: #fdfdfd;
+}
+
+
+/*This is so the text of the paragraphs is closer to the text of the headers*/
+h2 {
+    margin-bottom: -10px;
+}
+
+blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 16px;
+  margin: 20px 0;
+  font-style: italic;
+  color: #444;
+}
+
+
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
