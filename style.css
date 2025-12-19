@@ -36,16 +36,17 @@ h1 {
     border-width: 4px;
     padding: 6px;
     border-color: #1f2937;
-    margin-bottom: 2px;
-    border-top: 4px solid;
+    margin-bottom: 1px;
+      border-top: 4px solid;
   padding-top: 1rem;
 }
-
 
 /*This is so the text of the paragraphs is closer to the text of the headers*/
 h2 {
     margin-bottom: 5px;
+    margin-top: 5px;
 }
+
 
 /* this code is to make the spacing look better for my byline*/
 .byline h6 {
